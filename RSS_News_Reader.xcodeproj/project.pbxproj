@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5B32F8721A8868300F33399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B32F8621A8868300F33399 /* AppDelegate.swift */; };
+		F5B32F8921A8868300F33399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B32F8821A8868300F33399 /* ViewController.swift */; };
+		F5B32F8C21A8868300F33399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B32F8A21A8868300F33399 /* Main.storyboard */; };
+		F5B32F8E21A8868500F33399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B32F8D21A8868500F33399 /* Assets.xcassets */; };
+		F5B32F9121A8868500F33399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B32F8F21A8868500F33399 /* LaunchScreen.storyboard */; };
+		F5B32F9C21A8868500F33399 /* RSS_News_ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B32F9B21A8868500F33399 /* RSS_News_ReaderTests.swift */; };
+		F5B32FA721A8868500F33399 /* RSS_News_ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B32FA621A8868500F33399 /* RSS_News_ReaderUITests.swift */; };
+		F5B32FC421A8950A00F33399 /* rsz_1facebook-sign-in-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B32FC321A8950A00F33399 /* rsz_1facebook-sign-in-button.png */; };
+		F5B32FC821A8975900F33399 /* rsz_2twiter-signin-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B32FC721A8975900F33399 /* rsz_2twiter-signin-button.png */; };
+		F5B32FCA21A898EE00F33399 /* rsz1_google-signin-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B32FC921A898ED00F33399 /* rsz1_google-signin-button.png */; };
+		F5B32FCC21A899E500F33399 /* rsz_create-new-account-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B32FCB21A899E500F33399 /* rsz_create-new-account-button.png */; };
+		F5B32FCE21A89ACE00F33399 /* rsz_login-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B32FCD21A89ACE00F33399 /* rsz_login-button.png */; };
+		F5B32FD321A8A1AC00F33399 /* Login-background.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B32FD121A8A1AC00F33399 /* Login-background.png */; };
+		F5B32FD421A8A1AC00F33399 /* General-background.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B32FD221A8A1AC00F33399 /* General-background.png */; };
+		F5B32FD621A8A4C800F33399 /* Login1-background.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B32FD521A8A4C800F33399 /* Login1-background.png */; };
+		F5B32FD921A8A7D500F33399 /* Yataghan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5B32FD821A8A7D500F33399 /* Yataghan.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5B32F9821A8868500F33399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B32F7B21A8868300F33399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B32F8221A8868300F33399;
+			remoteInfo = "RSS _News_Reader";
+		};
+		F5B32FA321A8868500F33399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B32F7B21A8868300F33399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B32F8221A8868300F33399;
+			remoteInfo = "RSS _News_Reader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5B32F8321A8868300F33399 /* RSS_News_Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSS_News_Reader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B32F8621A8868300F33399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5B32F8821A8868300F33399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5B32F8B21A8868300F33399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5B32F8D21A8868500F33399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5B32F9021A8868500F33399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5B32F9221A8868500F33399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B32F9721A8868500F33399 /* RSS_News_ReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSS_News_ReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B32F9B21A8868500F33399 /* RSS_News_ReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSS_News_ReaderTests.swift; sourceTree = "<group>"; };
+		F5B32F9D21A8868500F33399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B32FA221A8868500F33399 /* RSS_News_ReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSS_News_ReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B32FA621A8868500F33399 /* RSS_News_ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSS_News_ReaderUITests.swift; sourceTree = "<group>"; };
+		F5B32FA821A8868500F33399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B32FC321A8950A00F33399 /* rsz_1facebook-sign-in-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rsz_1facebook-sign-in-button.png"; sourceTree = "<group>"; };
+		F5B32FC721A8975900F33399 /* rsz_2twiter-signin-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rsz_2twiter-signin-button.png"; sourceTree = "<group>"; };
+		F5B32FC921A898ED00F33399 /* rsz1_google-signin-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rsz1_google-signin-button.png"; sourceTree = "<group>"; };
+		F5B32FCB21A899E500F33399 /* rsz_create-new-account-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rsz_create-new-account-button.png"; sourceTree = "<group>"; };
+		F5B32FCD21A89ACE00F33399 /* rsz_login-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rsz_login-button.png"; sourceTree = "<group>"; };
+		F5B32FD121A8A1AC00F33399 /* Login-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login-background.png"; sourceTree = "<group>"; };
+		F5B32FD221A8A1AC00F33399 /* General-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General-background.png"; sourceTree = "<group>"; };
+		F5B32FD521A8A4C800F33399 /* Login1-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login1-background.png"; sourceTree = "<group>"; };
+		F5B32FD821A8A7D500F33399 /* Yataghan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yataghan.ttf; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5B32F8021A8868300F33399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B32F9421A8868500F33399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B32F9F21A8868500F33399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5B32F7A21A8868300F33399 = {
+			isa = PBXGroup;
+			children = (
+				F5B32FD821A8A7D500F33399 /* Yataghan.ttf */,
+				F5B32FD721A8A70E00F33399 /* Fonts */,
+				F5B32FB421A8903200F33399 /* Resources */,
+				F5B32F8521A8868300F33399 /* RSS_News_Reader */,
+				F5B32F9A21A8868500F33399 /* RSS_News_ReaderTests */,
+				F5B32FA521A8868500F33399 /* RSS_News_ReaderUITests */,
+				F5B32F8421A8868300F33399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5B32F8421A8868300F33399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5B32F8321A8868300F33399 /* RSS_News_Reader.app */,
+				F5B32F9721A8868500F33399 /* RSS_News_ReaderTests.xctest */,
+				F5B32FA221A8868500F33399 /* RSS_News_ReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5B32F8521A8868300F33399 /* RSS_News_Reader */ = {
+			isa = PBXGroup;
+			children = (
+				F5B32F8621A8868300F33399 /* AppDelegate.swift */,
+				F5B32F8821A8868300F33399 /* ViewController.swift */,
+				F5B32F8A21A8868300F33399 /* Main.storyboard */,
+				F5B32F8D21A8868500F33399 /* Assets.xcassets */,
+				F5B32F8F21A8868500F33399 /* LaunchScreen.storyboard */,
+				F5B32F9221A8868500F33399 /* Info.plist */,
+			);
+			path = RSS_News_Reader;
+			sourceTree = "<group>";
+		};
+		F5B32F9A21A8868500F33399 /* RSS_News_ReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5B32F9B21A8868500F33399 /* RSS_News_ReaderTests.swift */,
+				F5B32F9D21A8868500F33399 /* Info.plist */,
+			);
+			path = RSS_News_ReaderTests;
+			sourceTree = "<group>";
+		};
+		F5B32FA521A8868500F33399 /* RSS_News_ReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5B32FA621A8868500F33399 /* RSS_News_ReaderUITests.swift */,
+				F5B32FA821A8868500F33399 /* Info.plist */,
+			);
+			path = RSS_News_ReaderUITests;
+			sourceTree = "<group>";
+		};
+		F5B32FB421A8903200F33399 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5B32FD521A8A4C800F33399 /* Login1-background.png */,
+				F5B32FD221A8A1AC00F33399 /* General-background.png */,
+				F5B32FD121A8A1AC00F33399 /* Login-background.png */,
+				F5B32FCD21A89ACE00F33399 /* rsz_login-button.png */,
+				F5B32FCB21A899E500F33399 /* rsz_create-new-account-button.png */,
+				F5B32FC921A898ED00F33399 /* rsz1_google-signin-button.png */,
+				F5B32FC721A8975900F33399 /* rsz_2twiter-signin-button.png */,
+				F5B32FC321A8950A00F33399 /* rsz_1facebook-sign-in-button.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F5B32FD721A8A70E00F33399 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5B32F8221A8868300F33399 /* RSS_News_Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B32FAB21A8868500F33399 /* Build configuration list for PBXNativeTarget "RSS_News_Reader" */;
+			buildPhases = (
+				F5B32F7F21A8868300F33399 /* Sources */,
+				F5B32F8021A8868300F33399 /* Frameworks */,
+				F5B32F8121A8868300F33399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSS_News_Reader;
+			productName = "RSS _News_Reader";
+			productReference = F5B32F8321A8868300F33399 /* RSS_News_Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5B32F9621A8868500F33399 /* RSS_News_ReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B32FAE21A8868500F33399 /* Build configuration list for PBXNativeTarget "RSS_News_ReaderTests" */;
+			buildPhases = (
+				F5B32F9321A8868500F33399 /* Sources */,
+				F5B32F9421A8868500F33399 /* Frameworks */,
+				F5B32F9521A8868500F33399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B32F9921A8868500F33399 /* PBXTargetDependency */,
+			);
+			name = RSS_News_ReaderTests;
+			productName = "RSS _News_ReaderTests";
+			productReference = F5B32F9721A8868500F33399 /* RSS_News_ReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5B32FA121A8868500F33399 /* RSS_News_ReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B32FB121A8868500F33399 /* Build configuration list for PBXNativeTarget "RSS_News_ReaderUITests" */;
+			buildPhases = (
+				F5B32F9E21A8868500F33399 /* Sources */,
+				F5B32F9F21A8868500F33399 /* Frameworks */,
+				F5B32FA021A8868500F33399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B32FA421A8868500F33399 /* PBXTargetDependency */,
+			);
+			name = RSS_News_ReaderUITests;
+			productName = "RSS _News_ReaderUITests";
+			productReference = F5B32FA221A8868500F33399 /* RSS_News_ReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5B32F7B21A8868300F33399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nicolae Nastas";
+				TargetAttributes = {
+					F5B32F8221A8868300F33399 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F5B32F9621A8868500F33399 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F5B32F8221A8868300F33399;
+					};
+					F5B32FA121A8868500F33399 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F5B32F8221A8868300F33399;
+					};
+				};
+			};
+			buildConfigurationList = F5B32F7E21A8868300F33399 /* Build configuration list for PBXProject "RSS_News_Reader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5B32F7A21A8868300F33399;
+			productRefGroup = F5B32F8421A8868300F33399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5B32F8221A8868300F33399 /* RSS_News_Reader */,
+				F5B32F9621A8868500F33399 /* RSS_News_ReaderTests */,
+				F5B32FA121A8868500F33399 /* RSS_News_ReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5B32F8121A8868300F33399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B32FCA21A898EE00F33399 /* rsz1_google-signin-button.png in Resources */,
+				F5B32FD921A8A7D500F33399 /* Yataghan.ttf in Resources */,
+				F5B32FCC21A899E500F33399 /* rsz_create-new-account-button.png in Resources */,
+				F5B32F9121A8868500F33399 /* LaunchScreen.storyboard in Resources */,
+				F5B32FD321A8A1AC00F33399 /* Login-background.png in Resources */,
+				F5B32FD421A8A1AC00F33399 /* General-background.png in Resources */,
+				F5B32FD621A8A4C800F33399 /* Login1-background.png in Resources */,
+				F5B32FC421A8950A00F33399 /* rsz_1facebook-sign-in-button.png in Resources */,
+				F5B32FC821A8975900F33399 /* rsz_2twiter-signin-button.png in Resources */,
+				F5B32F8E21A8868500F33399 /* Assets.xcassets in Resources */,
+				F5B32F8C21A8868300F33399 /* Main.storyboard in Resources */,
+				F5B32FCE21A89ACE00F33399 /* rsz_login-button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B32F9521A8868500F33399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B32FA021A8868500F33399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5B32F7F21A8868300F33399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B32F8921A8868300F33399 /* ViewController.swift in Sources */,
+				F5B32F8721A8868300F33399 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B32F9321A8868500F33399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B32F9C21A8868500F33399 /* RSS_News_ReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B32F9E21A8868500F33399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B32FA721A8868500F33399 /* RSS_News_ReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5B32F9921A8868500F33399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B32F8221A8868300F33399 /* RSS_News_Reader */;
+			targetProxy = F5B32F9821A8868500F33399 /* PBXContainerItemProxy */;
+		};
+		F5B32FA421A8868500F33399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B32F8221A8868300F33399 /* RSS_News_Reader */;
+			targetProxy = F5B32FA321A8868500F33399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5B32F8A21A8868300F33399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B32F8B21A8868300F33399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5B32F8F21A8868500F33399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B32F9021A8868500F33399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5B32FA921A8868500F33399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5B32FAA21A8868500F33399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5B32FAC21A8868500F33399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSS_News_Reader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Humber.RSS--News-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5B32FAD21A8868500F33399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSS_News_Reader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Humber.RSS--News-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5B32FAF21A8868500F33399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSS_News_ReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Humber.RSS--News-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSS_News_Reader.app/RSS_News_Reader";
+			};
+			name = Debug;
+		};
+		F5B32FB021A8868500F33399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSS_News_ReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Humber.RSS--News-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSS_News_Reader.app/RSS_News_Reader";
+			};
+			name = Release;
+		};
+		F5B32FB221A8868500F33399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSS_News_ReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Humber.RSS--News-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RSS _News_Reader";
+			};
+			name = Debug;
+		};
+		F5B32FB321A8868500F33399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSS_News_ReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Humber.RSS--News-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RSS _News_Reader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5B32F7E21A8868300F33399 /* Build configuration list for PBXProject "RSS_News_Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B32FA921A8868500F33399 /* Debug */,
+				F5B32FAA21A8868500F33399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B32FAB21A8868500F33399 /* Build configuration list for PBXNativeTarget "RSS_News_Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B32FAC21A8868500F33399 /* Debug */,
+				F5B32FAD21A8868500F33399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B32FAE21A8868500F33399 /* Build configuration list for PBXNativeTarget "RSS_News_ReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B32FAF21A8868500F33399 /* Debug */,
+				F5B32FB021A8868500F33399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B32FB121A8868500F33399 /* Build configuration list for PBXNativeTarget "RSS_News_ReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B32FB221A8868500F33399 /* Debug */,
+				F5B32FB321A8868500F33399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5B32F7B21A8868300F33399 /* Project object */;
+}
