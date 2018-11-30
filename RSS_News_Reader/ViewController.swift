@@ -11,6 +11,9 @@ import UIKit
 class ViewController: UIViewController {
    
     @IBOutlet var loginView: UIView!
+    @IBOutlet var checkBox: UIButton!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +21,9 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "General-background.png")!)
         
                loginView.backgroundColor = UIColor(patternImage: UIImage(named: "Login1-background.png")!)
+        
+        
+
     }
 
    

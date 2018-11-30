@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5928D5821B1D0B700A004C1 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5928D5721B1D0B700A004C1 /* CheckBox.swift */; };
+		F5928D5A21B1D49D00A004C1 /* UncheckedBox.png in Resources */ = {isa = PBXBuildFile; fileRef = F5928D5921B1D49C00A004C1 /* UncheckedBox.png */; };
+		F5928D5C21B1D4C700A004C1 /* chekedBox.png in Resources */ = {isa = PBXBuildFile; fileRef = F5928D5B21B1D4C700A004C1 /* chekedBox.png */; };
 		4DE61FAE21B1CEE2005EDBCB /* ConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE61FAD21B1CEE2005EDBCB /* ConnectivityManager.swift */; };
 		4DE61FB021B1CF2A005EDBCB /* RssParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE61FAF21B1CF2A005EDBCB /* RssParser.swift */; };
 		4DE61FB421B1D270005EDBCB /* RssChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE61FB321B1D270005EDBCB /* RssChannel.swift */; };
@@ -49,6 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5928D5721B1D0B700A004C1 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		F5928D5921B1D49C00A004C1 /* UncheckedBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UncheckedBox.png; sourceTree = "<group>"; };
+		F5928D5B21B1D4C700A004C1 /* chekedBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chekedBox.png; sourceTree = "<group>"; };
 		4DE61FAD21B1CEE2005EDBCB /* ConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityManager.swift; sourceTree = "<group>"; };
 		4DE61FAF21B1CF2A005EDBCB /* RssParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RssParser.swift; sourceTree = "<group>"; };
 		4DE61FB321B1D270005EDBCB /* RssChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RssChannel.swift; sourceTree = "<group>"; };
@@ -190,6 +196,7 @@
 				F5B32F8D21A8868500F33399 /* Assets.xcassets */,
 				F5B32F8F21A8868500F33399 /* LaunchScreen.storyboard */,
 				F5B32F9221A8868500F33399 /* Info.plist */,
+				F5928D5721B1D0B700A004C1 /* CheckBox.swift */,
 			);
 			path = RSS_News_Reader;
 			sourceTree = "<group>";
@@ -215,6 +222,8 @@
 		F5B32FB421A8903200F33399 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F5928D5B21B1D4C700A004C1 /* chekedBox.png */,
+				F5928D5921B1D49C00A004C1 /* UncheckedBox.png */,
 				F5B32FD521A8A4C800F33399 /* Login1-background.png */,
 				F5B32FD221A8A1AC00F33399 /* General-background.png */,
 				F5B32FD121A8A1AC00F33399 /* Login-background.png */,
@@ -341,6 +350,7 @@
 				F5B32FCA21A898EE00F33399 /* rsz1_google-signin-button.png in Resources */,
 				F5B32FD921A8A7D500F33399 /* Yataghan.ttf in Resources */,
 				F5B32FCC21A899E500F33399 /* rsz_create-new-account-button.png in Resources */,
+				F5928D5C21B1D4C700A004C1 /* chekedBox.png in Resources */,
 				F5B32F9121A8868500F33399 /* LaunchScreen.storyboard in Resources */,
 				F5B32FD321A8A1AC00F33399 /* Login-background.png in Resources */,
 				F5B32FD421A8A1AC00F33399 /* General-background.png in Resources */,
@@ -350,6 +360,7 @@
 				F5B32F8E21A8868500F33399 /* Assets.xcassets in Resources */,
 				F5B32F8C21A8868300F33399 /* Main.storyboard in Resources */,
 				F5B32FCE21A89ACE00F33399 /* rsz_login-button.png in Resources */,
+				F5928D5A21B1D49D00A004C1 /* UncheckedBox.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +391,7 @@
 				4DE61FB621B1D2F8005EDBCB /* RssChannelPicture.swift in Sources */,
 				4DE61FBA21B1D60E005EDBCB /* MediaContent.swift in Sources */,
 				F5B32F8721A8868300F33399 /* AppDelegate.swift in Sources */,
+				F5928D5821B1D0B700A004C1 /* CheckBox.swift in Sources */,
 				4DE61FB021B1CF2A005EDBCB /* RssParser.swift in Sources */,
 				4DE61FB821B1D5C8005EDBCB /* RssItem.swift in Sources */,
 			);
